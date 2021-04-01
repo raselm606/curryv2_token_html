@@ -1,0 +1,200 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	color: #333;
+}
+
+.mt-3{
+margin-top: 30px !important;
+}
+.mt-5{
+	margin-top: 50px !important;
+}
+.mb-3{
+	margin-bottom: 30px;
+}
+.mb-5{
+	margin-bottom: 50px;
+}
+
+
+/* all reserver weeks token css start */
+.x_token_area {
+    margin: 0 auto;
+    width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.x_progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #d1ead1;
+    border-radius: .25rem;
+}
+.x_progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #b4f0b4;
+    transition: width .6s ease;
+}
+.x_token_start {
+    width: 220px;
+    background: #fff;
+    box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 23%);
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.green_border{
+	border-top: 3px solid #4caf50;
+}
+.red_border{
+	border-top: 3px solid #ff5722;
+}
+.x_token_body {
+    padding: 15px;
+}
+.top_x_text {
+    text-align: center;
+}
+.top_x_text span {
+    font-weight: 600;
+    font-size: 14px;
+}
+.top_x_text p {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #f98c49;
+}
+.x_users h6 {
+    margin: 0 auto;
+    font-size: 16px;
+    color: #000;
+}
+.x_users span {
+    font-size: 13px;
+    line-height: 10px;
+    display: block;
+    color: #9e9e9e;
+}
+.x_value h6 {
+    margin: 0 auto;
+    font-size: 16px;
+    color: #000;
+}
+.x_value span {
+    font-size: 13px;
+    line-height: 10px;
+    display: block;
+    color: #9e9e9e;
+}
+.x_users_value {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.x_token_btn {
+    text-align: center;
+}
+.x_btn_token {
+    background: #f98c49;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.x_token_time span {
+    font-size: 13px;
+    font-weight: 500;
+    color: #b65316;
+}
+.x_token_time {
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom_text_progress {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.x_share p {
+    margin-top: 0;
+    font-size: 13px;
+    line-height: 12px;
+    font-weight: 600;
+}
+.x_share span {
+    font-size: 13px;
+}
+.x_contribution{
+	text-align: right;
+}
+.x_contribution p {
+    margin-top: 0;
+    font-size: 13px;
+    line-height: 12px;
+    font-weight: 600;
+}
+.x_contribution span {
+    font-size: 13px;
+}
+.x_token_progress {
+    background: #f6f8f8;
+    padding: 15px 15px;
+    border-top: 1px solid #d9d9d9;
+    border-radius: 0 0 8px 8px;
+
+}
+.x_check svg {
+    color: #4caf50;
+}
+.x_check {
+    text-align: right;
+    margin-bottom: -8px;
+}
+.red_progress {
+    background: #e27070 !important;
+}
+.red_progress_bg {
+    background: #ec9191 !important;
+}
+/* Responsive css */
+@media only screen and (min-width: 360px) and (max-width: 640px){
+	.x_token_area {
+    width: 100%;
+    display: block;
+}
+.x_token_start {
+    width: auto;
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 568px){
+	.x_token_area {
+    width: 100%;
+    display: block;
+}
+.x_token_start {
+    width: auto;
+}
+}
