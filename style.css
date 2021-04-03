@@ -216,6 +216,94 @@ margin-top: 30px !important;
 .red_progress_bg {
     background: #ec9191 !important;
 }
+
+/* popup css start */
+.popup_body_areaa {
+    background: #fff;
+    width: 270px;
+    padding: 15px 20px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 23%);
+}
+.popup_top span {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.total_allocation p {
+    margin-bottom: -7px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.total_allocation p span {
+    font-size: 13px;
+    color: #757575;
+}
+
+.total_allocation {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+.allo_date_user span {
+    font-size: 11px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+}
+.input_allocation {
+    border: 1px solid #999;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 2px 0;
+}
+.input_allocation .inpu_allo {
+    border: none;
+    padding: 12px 10px;
+    width: 120px;
+    outline: none;
+    border-radius: 8px; 
+    font-weight: 600;
+}
+.input_allocation span {
+    font-size: 12px;
+    font-weight: 600;
+}
+.max_allo {
+    border: none;
+    background: #f98c49;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+.confirm_btn .allo_conf_btn {
+    background: #f98c49;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.popcloe_icon {
+    color: #000;
+    cursor: pointer;
+    text-align: right;
+}
+
 /* Responsive css */
 @media only screen and (min-width: 360px) and (max-width: 640px){
 	.x_token_area {
