@@ -249,6 +249,7 @@ margin-top: 30px !important;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 5px 10px;
+    text-align: center;
 }
 .allo_date_user span {
     font-size: 11px;
