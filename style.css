@@ -220,7 +220,7 @@ margin-top: 30px !important;
 /* popup css start */
 .popup_body_areaa {
     background: #fff;
-    width: 270px;
+    width: 350px;
     padding: 15px 20px;
     border-radius: 7px;
     box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 23%);
@@ -248,25 +248,30 @@ margin-top: 30px !important;
 .total_allocation {
     border: 1px solid #ccc;
     border-radius: 8px;
-    padding: 5px 10px;
+    padding: 10px 10px;
     text-align: center;
+    margin-top: 22px;
 }
 .allo_date_user span {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 600;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.allo_date_user {
+    margin-top: 10px;
 }
 .input_allocation {
     border: 1px solid #999;
     border-radius: 8px;
-    margin-top: 20px;
-    padding: 2px 0;
+    margin-top: 30px;
+    padding: 8px 0;
 }
 .input_allocation .inpu_allo {
     border: none;
     padding: 12px 12px;
-    width: 120px;
+    width: 198px;
     outline: none;
     border-radius: 8px; 
     font-weight: 600;
@@ -286,11 +291,11 @@ margin-top: 30px !important;
     background: #f98c49;
     border: none;
     outline: none;
-    padding: 10px 20px;
+    padding: 15px 20px;
     display: block;
     width: 100%;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 30px;
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
@@ -305,7 +310,28 @@ margin-top: 30px !important;
     text-align: right;
 }
 
-/* Responsive css */
+/*.pop_dnone{
+    display: none;
+    position: relative;
+    z-index: 9999999;
+}
+.allocation_popup_area {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0 0 0 / 70%);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+*/
+
+
+/* Responsive css start*/
 @media only screen and (min-width: 360px) and (max-width: 640px){
 	.x_token_area {
     width: 100%;
@@ -319,6 +345,12 @@ margin-top: 30px !important;
 }
 .current_btn_past {
     padding: 10px 19px;
+}
+.popup_body_areaa {
+    width: 270px;
+}
+.input_allocation .inpu_allo {
+    width: 122px;
 }
 }
 
@@ -336,5 +368,12 @@ margin-top: 30px !important;
 }
 .current_btn_past {
     padding: 10px 19px;
+}
+
+.popup_body_areaa {
+    width: 270px;
+}
+.input_allocation .inpu_allo {
+    width: 122px;
 }
 }
