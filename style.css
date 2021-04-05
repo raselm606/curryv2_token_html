@@ -243,6 +243,7 @@ margin-top: 30px !important;
 .total_allocation p span {
     font-size: 13px;
     color: #757575;
+    margin-left: 20px;
 }
 
 .total_allocation {
@@ -329,6 +330,69 @@ margin-top: 30px !important;
     left: 0;
 }
 */
+
+
+/* weekly breakdown table css */
+.weekly_breakdown {
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+.weekly_b_table {
+    overflow-y: scroll;
+    height: 240px;
+}
+.weekly_b_table .table_week {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+    width: 100%;
+    white-space: nowrap;
+}
+.weekly_b_table .table_week td, .weekly_b_table .table_week th  {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.weekly_b_table .table_week thead tr th {
+    font-size: 12px;
+    line-height: 36px;
+    text-align: left;
+}
+
+
+.weekly_b_table .table_week .weekly_tbody tr {
+    border-top: 1px solid #dee2e6;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 16px;
+    padding: 18px !important;
+    border-bottom: 1px solid #dee2e6;
+}
+.weekly_b_table .table_week .weekly_tbody tr td {
+    padding: 10px;
+}
+.table_titlee h4 {
+    margin-bottom: 5px;
+}
+.table_titlee {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Responsive css start*/
