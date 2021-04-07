@@ -450,6 +450,7 @@ margin-top: 30px !important;
     text-align: left;
     padding: 5px 20px;
     color: #f89638;
+    text-align: center;
 }
 
 
@@ -471,6 +472,7 @@ margin-top: 30px !important;
     color: #f89638;
     padding-left: 
     padding-left: 20px;
+    text-align: center;
 }
 .weekly_b_table .table_week .weekly_tbody tr td:nth-child(1) {
     border-left: 2px solid #f89638;
