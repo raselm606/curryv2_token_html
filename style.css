@@ -3,6 +3,7 @@ body{
 	font-size: 16px;
 	line-height: 26px;
 	color: #333;
+    background: rgb(16, 12, 24);
 }
 
 .mt-3{
@@ -58,11 +59,14 @@ margin-top: 30px !important;
 }
 .x_token_area {
     margin: 0 auto;
-    width: 800px;
+    width: 1200px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
-
+.justify-content-start{
+    justify-content: start !important;
+}
 .x_progress {
     display: flex;
     height: 1rem;
@@ -83,13 +87,13 @@ margin-top: 30px !important;
     transition: width .6s ease;
 }
 .x_token_start {
-    width: 245px;
+    width: 340px;
     background: #fff;
     box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 23%);
     border-radius: 8px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
 }
 .green_border{
 	border-top: 3px solid #4caf50;
@@ -331,26 +335,109 @@ margin-top: 30px !important;
 }
 */
 
+/* dashboard balance css */
+.token_blance_area {
+    background: rgb(39, 38, 44);
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 25%);
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 370px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.tok_item {
+    padding: 15px 15px;
+}
+.tok_item span {
+    font-size: 12px;
+    line-height: 16px;
+    display: inline-block;
+    color: rgb(248, 150, 56);
+    font-weight: 500;
+}
+.tok_blence {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+.tok_blence img {
+    margin-right: 20px;
+}
+.tok_blence p span {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(248, 150, 56);
+}
+.tok_blence p {
+    color: rgb(248, 150, 56);
+    font-weight: 700;
+}
+.btm_txt {
+    margin-top: 0;
+    font-size: 10px;
+    line-height: 17px;
+    color: rgb(248, 150, 56);
+}
+.curry_tokn h5 {
+    font-size: 22px;
+    color: rgb(248, 150, 56);
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.curry_tokn span {
+    display: inline;
+    font-size: 9px;
+    margin-right: 5px;
+}
+.curry_tokn span {
+    display: inline;
+    font-size: 12px;
+    margin-right: 5px;
+    text-transform: capitalize;
+    color: rgb(248, 150, 56);
+}
+.pop_buttonn button {
+    background: rgb(248, 150, 56);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+.pop_buttonn button:hover{
+    background: #fff;
+}
 
 /* weekly breakdown table css */
 .weekly_breakdown {
     box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 25%);
     border-radius: 5px;
     padding: 10px 15px;
-    border: 1px solid #ddd;
     overflow: hidden;
+    width: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
+    background: rgb(39, 38, 44);
 }
 .weekly_b_table {
     overflow-y: scroll;
-    height: 240px;
+    padding: 10px;
+    
 }
 .weekly_b_table .table_week {
     width: 100%;
     margin-bottom: 1rem;
     color: #212529;
-    border-collapse: collapse;
+    border-collapse: separate;
     width: 100%;
-    white-space: nowrap;
+    white-space: nowrap; 
+    border-spacing: 0 20px;
+
 }
 .weekly_b_table .table_week td, .weekly_b_table .table_week th  {
   white-space: nowrap;
@@ -362,6 +449,7 @@ margin-top: 30px !important;
     line-height: 18px;
     text-align: left;
     padding: 5px 20px;
+    color: #f89638;
 }
 
 
@@ -372,15 +460,32 @@ margin-top: 30px !important;
     border-radius: 16px;
     padding: 18px !important;
     border-bottom: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
 }
 .weekly_b_table .table_week .weekly_tbody tr td {
     padding: 10px;
+    font-weight: 500;
+    line-height: 35px;
+    border-top: 2px solid #f89638;
+    border-bottom: 2px solid #f89638;
+    color: #f89638;
+    padding-left: 
+    padding-left: 20px;
+}
+.weekly_b_table .table_week .weekly_tbody tr td:nth-child(1) {
+    border-left: 2px solid #f89638;
+    border-radius: 12px 0 0 12px;
+}
+.weekly_b_table .table_week .weekly_tbody tr td:last-child {
+    border-right: 2px solid #f89638;
+    border-radius: 0 12px 12px 0;
 }
 .table_titlee h4 {
     margin-bottom: 5px;
+    color: #f89638;
 }
 .table_titlee {
-    border-bottom: 1px solid #ddd;
+    border-bottom:  1px solid #f89638;
     margin-bottom: 6px;
 }
 
@@ -417,6 +522,12 @@ margin-top: 30px !important;
 .input_allocation .inpu_allo {
     width: 122px;
 }
+.weekly_breakdown{
+    width: auto !important;
+}
+.token_blance_area{
+    width: auto;
+}
 }
 
 @media only screen and (min-width: 320px) and (max-width: 568px){
@@ -440,5 +551,11 @@ margin-top: 30px !important;
 }
 .input_allocation .inpu_allo {
     width: 122px;
+}
+.weekly_breakdown{
+    width: auto !important;
+}
+.token_blance_area{
+    width: auto;
 }
 }
