@@ -1,3 +1,5 @@
+
+
 body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
@@ -25,6 +27,9 @@ margin-top: 30px !important;
 /* all reserver weeks token css start */
 .justify_center{
     justify-content: center !important;
+}
+.justify_end{
+    justify-content: flex-end !important;
 }
 .current_btn_res {
     background: #f98c49;
@@ -344,6 +349,10 @@ margin-top: 30px !important;
     width: 370px;
     border-radius: 4px;
     margin-bottom: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 .tok_item {
     padding: 15px 15px;
@@ -427,6 +436,7 @@ margin-top: 30px !important;
 .weekly_b_table {
     overflow-y: scroll;
     padding: 10px;
+    height: 700px;
     
 }
 .weekly_b_table .table_week {
@@ -491,7 +501,19 @@ margin-top: 30px !important;
     margin-bottom: 6px;
 }
 
-
+/* scroll css */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(248, 150, 56);
+     border-radius: 8px; 
+}
+::-webkit-scrollbar-track {
+    box-shadow: rgb(72 63 90) 0px 0px 5px inset;
+    border-radius: 10px;
+}
 
 
 
@@ -504,13 +526,19 @@ margin-top: 30px !important;
 
 
 /* Responsive css start*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .x_token_area {
+    width: 100%;
+    justify-content: start;
+}
+}
 @media only screen and (min-width: 360px) and (max-width: 640px){
 	.x_token_area {
     width: 100%;
-    display: block;
+    justify-content: start;
 }
 .x_token_start {
-    width: auto;
+    width: 82%;
 }
 .current_btn_res {
     padding: 10px 19px;
@@ -525,20 +553,24 @@ margin-top: 30px !important;
     width: 122px;
 }
 .weekly_breakdown{
-    width: auto !important;
+    width: 100% !important;
 }
 .token_blance_area{
-    width: auto;
+    width: 100%;
+}
+.blance_popp{
+    justify-content: center !important;
 }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 568px){
 	.x_token_area {
     width: 100%;
-    display: block;
+    /*display: block;*/
+    justify-content: start;
 }
 .x_token_start {
-    width: auto;
+    width: 82%;
 }
 
 .current_btn_res {
@@ -555,9 +587,13 @@ margin-top: 30px !important;
     width: 122px;
 }
 .weekly_breakdown{
-    width: auto !important;
+    width: 100% !important;
 }
 .token_blance_area{
-    width: auto;
+    width: 100%;
+}
+.blance_popp{
+    justify-content: center !important;
 }
 }
+
